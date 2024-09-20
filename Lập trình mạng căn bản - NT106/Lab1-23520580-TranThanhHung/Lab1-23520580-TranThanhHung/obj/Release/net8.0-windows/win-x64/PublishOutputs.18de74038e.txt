@@ -1,0 +1,2 @@
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\publish\win-x64\Lab1-23520580-TranThanhHung.pdb
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\publish\win-x64\Lab1-23520580-TranThanhHung.exe

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "tlpN0FrUJG4=",
+  "success": true,
+  "projectFilePath": "D:\\code\\ltm\\Lab1-23520580-TranThanhHung\\Lab1-23520580-TranThanhHung\\Lab1-23520580-TranThanhHung.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hunn\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
+    "C:\\Users\\Hunn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.8\\microsoft.netcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\Hunn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\Hunn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\Hunn\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.8\\microsoft.netcore.app.crossgen2.win-x64.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

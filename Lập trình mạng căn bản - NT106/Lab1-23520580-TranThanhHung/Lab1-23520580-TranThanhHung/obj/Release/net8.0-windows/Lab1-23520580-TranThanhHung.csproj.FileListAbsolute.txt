@@ -1,0 +1,17 @@
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\Lab1-23520580-TranThanhHung.exe
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\Lab1-23520580-TranThanhHung.deps.json
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\Lab1-23520580-TranThanhHung.runtimeconfig.json
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\Lab1-23520580-TranThanhHung.dll
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\bin\Release\net8.0-windows\Lab1-23520580-TranThanhHung.pdb
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1_23520580_TranThanhHung.Form1.resources
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1_23520580_TranThanhHung.Form2.resources
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.csproj.GenerateResource.cache
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.AssemblyInfoInputs.cache
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.AssemblyInfo.cs
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.csproj.CoreCompileInputs.cache
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.dll
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\refint\Lab1-23520580-TranThanhHung.dll
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.pdb
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\Lab1-23520580-TranThanhHung.genruntimeconfig.cache
+D:\code\ltm\Lab1-23520580-TranThanhHung\Lab1-23520580-TranThanhHung\obj\Release\net8.0-windows\ref\Lab1-23520580-TranThanhHung.dll
