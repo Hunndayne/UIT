@@ -1,0 +1,17 @@
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2_23520580_TranThanhHung.Cau2.resources
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.csproj.GenerateResource.cache
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.AssemblyInfoInputs.cache
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.AssemblyInfo.cs
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.csproj.CoreCompileInputs.cache
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\bin\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.exe
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\bin\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.deps.json
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\bin\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.runtimeconfig.json
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\bin\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.dll
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\bin\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.pdb
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.dll
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\refint\Lab2-23520580-TranThanhHung.dll
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.pdb
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2-23520580-TranThanhHung.genruntimeconfig.cache
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\ref\Lab2-23520580-TranThanhHung.dll
+D:\code\ltm\Lab2-23520580-TranThanhHung\Lab2-23520580-TranThanhHung\obj\Debug\net8.0-windows\Lab2_23520580_TranThanhHung.Cau3.resources
