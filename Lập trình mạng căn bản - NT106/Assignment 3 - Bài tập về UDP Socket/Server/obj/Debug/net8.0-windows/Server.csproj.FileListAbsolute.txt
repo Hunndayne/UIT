@@ -1,0 +1,16 @@
+D:\udp\Server\bin\Debug\net8.0-windows\Server.exe
+D:\udp\Server\bin\Debug\net8.0-windows\Server.deps.json
+D:\udp\Server\bin\Debug\net8.0-windows\Server.runtimeconfig.json
+D:\udp\Server\bin\Debug\net8.0-windows\Server.dll
+D:\udp\Server\bin\Debug\net8.0-windows\Server.pdb
+D:\udp\Server\obj\Debug\net8.0-windows\udp_server.Form1.resources
+D:\udp\Server\obj\Debug\net8.0-windows\Server.csproj.GenerateResource.cache
+D:\udp\Server\obj\Debug\net8.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\udp\Server\obj\Debug\net8.0-windows\Server.AssemblyInfoInputs.cache
+D:\udp\Server\obj\Debug\net8.0-windows\Server.AssemblyInfo.cs
+D:\udp\Server\obj\Debug\net8.0-windows\Server.csproj.CoreCompileInputs.cache
+D:\udp\Server\obj\Debug\net8.0-windows\Server.dll
+D:\udp\Server\obj\Debug\net8.0-windows\refint\Server.dll
+D:\udp\Server\obj\Debug\net8.0-windows\Server.pdb
+D:\udp\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
+D:\udp\Server\obj\Debug\net8.0-windows\ref\Server.dll
