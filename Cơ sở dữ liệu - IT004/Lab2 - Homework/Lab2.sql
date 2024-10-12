@@ -39,21 +39,27 @@ WHERE LoaiKyNang = N'Công Nghệ'
 
 -- Hiển thị tên và địa chỉ của các công ty trong lĩnh vực 'Phân tích dữ liệu'.
 
-
+SELECT TenCongTy, DiaChi FROM CongTy 
+WHERE LinhVuc= N'Phân tích dữ liệu'
 -- Liệt kê tên các dự án có trạng thái 'Hoàn thành'.
 
-
+SELECT TenDuAn FROM DuAn 
+WHERE TrangThai = N'Hoàn thành'
 
 
 -- Hiển thị tên và số năm kinh nghiệm của các chuyên gia, sắp xếp theo số năm kinh nghiệm giảm dần.
-
+SELECT HoTen, NamKinhNghiem 
+FROM ChuyenGia
+ORDER BY NamKinhNghiem DESC;
 
 -- Liệt kê tên các công ty và số lượng nhân viên, chỉ hiển thị các công ty có từ 100 đến 200 nhân viên.
-
-
+SELECT TenCongTy FROM CongTy 
+WHERE SoNhanVien BETWEEN 100 AND 200 
 -- Hiển thị tên dự án và ngày kết thúc của các dự án kết thúc trong năm 2023.
 
-
+SELECT TenDuAn, NgayKetThuc
+FROM DuAn
+WHERE YEAR(NgayKetThuc) = 2023; 
 -- Liệt kê tên và email của các chuyên gia có tên bắt đầu bằng chữ 'N'.
 
 
