@@ -103,7 +103,7 @@ WHERE TrangThai = N'Đang thực hiện';
 
 
 -- Liệt kê tất cả các kỹ năng thuộc loại "Ngôn ngữ lập trình".
-SELECT *
+SELECT TenKyNang
 FROM KyNang
 WHERE LoaiKyNang = N'Ngôn ngữ lập trình';
 
