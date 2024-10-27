@@ -70,13 +70,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(545, 450);
             Controls.Add(listView);
             Controls.Add(Listen);
             Controls.Add(Port);
             Controls.Add(IP);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Chat Server";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -72,7 +72,7 @@
             Connect.Name = "Connect";
             Connect.Size = new Size(75, 23);
             Connect.TabIndex = 4;
-            Connect.Text = "button1";
+            Connect.Text = "Connect";
             Connect.UseVisualStyleBackColor = true;
             Connect.Click += Connect_Click;
             // 
@@ -98,7 +98,7 @@
             Controls.Add(Port);
             Controls.Add(IP);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Client";
             ResumeLayout(false);
             PerformLayout();
         }
