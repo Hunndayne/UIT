@@ -1,6 +1,7 @@
 ﻿using System.Net.Sockets;
 using System.Net;
 using System.Text;
+using System.Threading;
 
 namespace bt2
 {
@@ -9,6 +10,13 @@ namespace bt2
         public Form1()
         {
             InitializeComponent();
+
+            // Set the ListView to Details view
+            listView.View = View.Details;
+
+            // Add a single column and set its width
+            listView.Columns.Add("Messages", 500); // Adjust the width as necessary
+            listView.HeaderStyle = ColumnHeaderStyle.None; // Hide the column header if not needed
         }
 
         private void StartListen_Click(object sender, EventArgs e)

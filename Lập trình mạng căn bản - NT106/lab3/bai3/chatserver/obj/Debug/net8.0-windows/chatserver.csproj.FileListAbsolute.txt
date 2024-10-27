@@ -1,0 +1,17 @@
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\bin\Debug\net8.0-windows\chatserver.exe
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\bin\Debug\net8.0-windows\chatserver.deps.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\bin\Debug\net8.0-windows\chatserver.runtimeconfig.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\bin\Debug\net8.0-windows\chatserver.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\bin\Debug\net8.0-windows\chatserver.pdb
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.Form1.resources
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.csproj.GenerateResource.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.GeneratedMSBuildEditorConfig.editorconfig
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.AssemblyInfoInputs.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.AssemblyInfo.cs
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.csproj.CoreCompileInputs.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.sourcelink.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\refint\chatserver.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.pdb
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\chatserver.genruntimeconfig.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bai3\chatserver\obj\Debug\net8.0-windows\ref\chatserver.dll
