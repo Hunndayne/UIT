@@ -33,21 +33,21 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "chatserver\\Form1.Designer.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.Designer.cs*",
-              "RelativeToolTip": "chatserver\\Form1.Designer.cs*",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.Designer.cs",
+              "RelativeToolTip": "chatserver\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T13:30:25.495Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -55,8 +55,8 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs*",
-              "RelativeToolTip": "Client\\Form1.cs*",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs",
+              "RelativeToolTip": "Client\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T07:02:51.036Z",
@@ -68,8 +68,8 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs",
               "RelativeDocumentMoniker": "chatserver\\Form1.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs*",
-              "RelativeToolTip": "chatserver\\Form1.cs*",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs",
+              "RelativeToolTip": "chatserver\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T06:59:27.496Z",
@@ -81,8 +81,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs [Design]*",
-              "RelativeToolTip": "Client\\Form1.cs [Design]*",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\Client\\Form1.cs [Design]",
+              "RelativeToolTip": "Client\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T07:00:10.545Z",
               "EditorCaption": " [Design]"
@@ -93,8 +93,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs",
               "RelativeDocumentMoniker": "chatserver\\Form1.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs [Design]*",
-              "RelativeToolTip": "chatserver\\Form1.cs [Design]*",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bai3\\chatserver\\Form1.cs [Design]",
+              "RelativeToolTip": "chatserver\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T03:29:53.893Z",
               "EditorCaption": " [Design]"

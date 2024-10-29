@@ -11,18 +11,16 @@ namespace bt2
         {
             InitializeComponent();
 
-            // Set the ListView to Details view
             listView.View = View.Details;
 
-            // Add a single column and set its width
-            listView.Columns.Add("Messages", 500); // Adjust the width as necessary
-            listView.HeaderStyle = ColumnHeaderStyle.None; // Hide the column header if not needed
+            listView.Columns.Add("Messages", 500); 
+            listView.HeaderStyle = ColumnHeaderStyle.None; 
         }
 
         private void StartListen_Click(object sender, EventArgs e)
         {
             Thread serverThread = new Thread(new ThreadStart(StartUnsafeThread));
-            serverThread.IsBackground = true; // Make it a background thread so it stops when the application closes
+            serverThread.IsBackground = true; 
             serverThread.Start();
         }
 
@@ -31,9 +29,9 @@ namespace bt2
             try
             {
                 int bytesReceived = 0;
-                byte[] recv = new byte[1024]; // Use a larger buffer size to improve efficiency
+                byte[] recv = new byte[1024]; 
 
-                // Create the listening socket
+
                 Socket listenerSocket = new Socket(
                     AddressFamily.InterNetwork,
                     SocketType.Stream,
@@ -45,11 +43,9 @@ namespace bt2
 
                 AppendTextToListView("Server started, waiting for connections...");
 
-                // Accept client connection
                 Socket clientSocket = listenerSocket.Accept();
                 AppendTextToListView("New client connected.");
 
-                // Receive data from the client
                 while (clientSocket.Connected)
                 {
                     string text = "";
@@ -62,7 +58,7 @@ namespace bt2
                     AppendTextToListView(text.Trim());
                 }
 
-                // Clean up sockets
+
                 clientSocket.Shutdown(SocketShutdown.Both);
                 clientSocket.Close();
                 listenerSocket.Close();

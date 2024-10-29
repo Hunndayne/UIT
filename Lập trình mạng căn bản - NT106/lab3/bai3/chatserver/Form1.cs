@@ -11,12 +11,10 @@ namespace chatserver
         {
             InitializeComponent();
 
-            // Set the ListView to Details view
             listView.View = View.Details;
 
-            // Add a single column and set its width
-            listView.Columns.Add("Messages", 500); // Adjust the width as necessary
-            listView.HeaderStyle = ColumnHeaderStyle.None; // Hide the column header if not needed
+            listView.Columns.Add("Messages", 500); 
+            listView.HeaderStyle = ColumnHeaderStyle.None;
         }
 
         private void Listen_Click(object sender, EventArgs e)
@@ -34,21 +32,21 @@ namespace chatserver
                 return;
             }
 
-            // Start a new thread for the server, passing IP and Port as parameters
+            // Start a new thread
             Thread serverThread = new Thread(() => StartUnsafeThread(serverIP, serverPort))
             {
-                IsBackground = true // Make it a background thread so it stops when the application closes
+                IsBackground = true //background thread, stops when the app closes
             };
             serverThread.Start();
         }
 
-        // Server thread method accepting IP and Port
+        // Server thread 
         void StartUnsafeThread(IPAddress IP, int Port)
         {
             try
             {
                 int bytesReceived = 0;
-                byte[] recv = new byte[1024]; // Use a larger buffer size to improve efficiency
+                byte[] recv = new byte[1024]; //buffer size
 
                 // Create the listening socket
                 Socket listenerSocket = new Socket(
@@ -56,18 +54,18 @@ namespace chatserver
                     SocketType.Stream,
                     ProtocolType.Tcp);
 
-                // Bind to the provided IP address and port
+                // Bind to the IP address and port
                 IPEndPoint ipepServer = new IPEndPoint(IP, Port);
                 listenerSocket.Bind(ipepServer);
                 listenerSocket.Listen(10);
 
                 AppendTextToListView("Server started, waiting for connections...");
 
-                // Accept client connection
+                // Accept client
                 Socket clientSocket = listenerSocket.Accept();
                 AppendTextToListView("New client connected.");
 
-                // Receive data from the client
+                // Receive data
                 while (clientSocket.Connected)
                 {
                     string text = "";
@@ -80,7 +78,7 @@ namespace chatserver
                     AppendTextToListView(text.Trim());
                 }
 
-                // Clean up sockets
+                // Clean sockets
                 clientSocket.Shutdown(SocketShutdown.Both);
                 clientSocket.Close();
                 listenerSocket.Close();
@@ -91,7 +89,7 @@ namespace chatserver
             }
         }
 
-        // Append text to the ListView (thread-safe)
+        // Append text
         private void AppendTextToListView(string text)
         {
             if (listView.InvokeRequired)

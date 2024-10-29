@@ -20,7 +20,7 @@ namespace Client
         {
             try
             {
-                // Create a new TcpClient object
+                // Create a new TcpClient
                 _client = new TcpClient();
 
                 if (!IPAddress.TryParse(IP.Text, out var serverIP))
@@ -37,7 +37,7 @@ namespace Client
 
                 // Connect to the server
                 _client.Connect(serverIP, serverPort);
-                _networkStream = _client.GetStream(); // Get the stream for communication
+                _networkStream = _client.GetStream(); 
 
                 MessageBox.Show("Kết nối thành công!");
             }
@@ -66,11 +66,11 @@ namespace Client
 
             try
             {
-                // Convert the message to byte array
+                // Convert the message to byte
                 byte[] messageBuffer = Encoding.UTF8.GetBytes("Client: "+message+"\n");
 
 
-                // Send the message through the stream
+                // Send the message 
                 _networkStream.Write(messageBuffer, 0, messageBuffer.Length);
             }
             catch (Exception ex)
@@ -79,7 +79,7 @@ namespace Client
             }
         }
 
-        // Ensure to close the stream and client socket properly
+        //close the stream and client socket
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (_networkStream != null)

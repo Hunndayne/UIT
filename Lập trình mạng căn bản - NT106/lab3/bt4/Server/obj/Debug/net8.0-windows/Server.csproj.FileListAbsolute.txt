@@ -1,0 +1,17 @@
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.server.resources
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.csproj.GenerateResource.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.AssemblyInfoInputs.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.AssemblyInfo.cs
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.csproj.CoreCompileInputs.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.sourcelink.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\bin\Debug\net8.0-windows\Server.exe
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\bin\Debug\net8.0-windows\Server.deps.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\bin\Debug\net8.0-windows\Server.runtimeconfig.json
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\bin\Debug\net8.0-windows\Server.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\bin\Debug\net8.0-windows\Server.pdb
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\refint\Server.dll
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.pdb
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
+D:\UIT\Lập trình mạng căn bản - NT106\lab3\bt4\Server\obj\Debug\net8.0-windows\ref\Server.dll
