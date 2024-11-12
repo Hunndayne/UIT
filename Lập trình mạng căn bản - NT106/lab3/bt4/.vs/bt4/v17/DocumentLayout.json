@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{F85072BD-E1B9-42CA-B21C-D62B0A5514C6}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADF50EA-5D3E-41D5-9A61-9FD5D6B1D0EE}|Server\\Server.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab3\\bt4\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AADF50EA-5D3E-41D5-9A61-9FD5D6B1D0EE}|Server\\Server.csproj|D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bt4\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AADF50EA-5D3E-41D5-9A61-9FD5D6B1D0EE}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -50,20 +50,7 @@
               "RelativeToolTip": "Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:41:43.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Server.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bt4\\Server\\Server.cs",
-              "RelativeDocumentMoniker": "Server\\Server.cs",
-              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bt4\\Server\\Server.cs [Design]",
-              "RelativeToolTip": "Server\\Server.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:40:13.799Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-28T18:41:43.365Z"
             },
             {
               "$type": "Document",
@@ -75,8 +62,7 @@
               "RelativeToolTip": "Server\\Server.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:39:07.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T18:39:07.03Z"
             },
             {
               "$type": "Document",
@@ -126,8 +112,18 @@
               "RelativeToolTip": "Server\\Server.Designer.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAYwH4AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:35:43.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T18:35:43.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bt4\\Server\\Server.cs",
+              "RelativeDocumentMoniker": "Server\\Server.cs",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\lab3\\bt4\\Server\\Server.cs [Design]",
+              "RelativeToolTip": "Server\\Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:40:13.799Z"
             },
             {
               "$type": "Bookmark",
