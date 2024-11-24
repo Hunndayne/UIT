@@ -18,3 +18,4 @@ D:\UIT\Lập trình mạng căn bản - NT106\Lab4\Lab4\obj\Debug\net8.0-windows
 D:\UIT\Lập trình mạng căn bản - NT106\Lab4\Lab4\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 D:\UIT\Lập trình mạng căn bản - NT106\Lab4\Lab4\obj\Debug\net8.0-windows\Lab4.csproj.AssemblyReference.cache
 D:\UIT\Lập trình mạng căn bản - NT106\Lab4\Lab4\obj\Debug\net8.0-windows\Lab4.csproj.Up2Date
+D:\UIT\Lập trình mạng căn bản - NT106\Lab4\Lab4\bin\Debug\net8.0-windows\HtmlAgilityPack.dll

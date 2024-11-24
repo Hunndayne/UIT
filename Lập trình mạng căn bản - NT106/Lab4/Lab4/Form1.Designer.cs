@@ -32,7 +32,6 @@
             button1 = new Button();
             richTextBox1 = new RichTextBox();
             dataGridView1 = new DataGridView();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -69,20 +68,11 @@
             dataGridView1.Size = new Size(380, 360);
             dataGridView1.TabIndex = 3;
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(405, 53);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(380, 23);
-            comboBox1.TabIndex = 4;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(815, 450);
-            Controls.Add(comboBox1);
             Controls.Add(dataGridView1);
             Controls.Add(richTextBox1);
             Controls.Add(button1);
@@ -100,6 +90,5 @@
         private Button button1;
         private RichTextBox richTextBox1;
         private DataGridView dataGridView1;
-        private ComboBox comboBox1;
     }
 }
