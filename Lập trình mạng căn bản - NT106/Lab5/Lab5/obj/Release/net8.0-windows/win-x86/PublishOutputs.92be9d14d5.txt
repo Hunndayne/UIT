@@ -1,0 +1,2 @@
+D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\bin\Release\net8.0-windows\publish\win-x86\Lab5.pdb
+D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\bin\Release\net8.0-windows\publish\win-x86\Lab5.exe
