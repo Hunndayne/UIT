@@ -8,7 +8,6 @@ D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\bin\Release\net8.0-windo
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\bin\Release\net8.0-windows\MimeKit.dll
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.csproj.AssemblyReference.cache
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.EmailDetailsForm.resources
-D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.Form1.resources
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.RecieveEmail.resources
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.SendEmail.resources
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.csproj.GenerateResource.cache
@@ -23,3 +22,4 @@ D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windo
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.pdb
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.genruntimeconfig.cache
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\ref\Lab5.dll
+D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Release\net8.0-windows\Lab5.Form1.resources

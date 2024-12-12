@@ -22,4 +22,4 @@ D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\bin\Debug\net8.0-windows
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Debug\net8.0-windows\Lab5.csproj.AssemblyReference.cache
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Debug\net8.0-windows\Lab5.csproj.Up2Date
 D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Debug\net8.0-windows\Lab5.EmailDetailsForm.resources
-D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Debug\net8.0-windows\Lab5.LOGi.resources
+D:\UIT\Lập trình mạng căn bản - NT106\Lab5\Lab5\obj\Debug\net8.0-windows\Lab5.Form1.resources

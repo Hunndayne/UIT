@@ -33,12 +33,11 @@
             lblRecent = new Label();
             listView1 = new ListView();
             EmailDisplay = new Label();
-            loadmoreEmails = new Button();
             SuspendLayout();
             // 
             // SendEmail
             // 
-            SendEmail.Location = new Point(181, 21);
+            SendEmail.Location = new Point(713, 86);
             SendEmail.Name = "SendEmail";
             SendEmail.Size = new Size(75, 23);
             SendEmail.TabIndex = 0;
@@ -81,21 +80,11 @@
             EmailDisplay.TabIndex = 6;
             EmailDisplay.Text = "label1";
             // 
-            // loadmoreEmails
-            // 
-            loadmoreEmails.Location = new Point(663, 421);
-            loadmoreEmails.Name = "loadmoreEmails";
-            loadmoreEmails.Size = new Size(75, 23);
-            loadmoreEmails.TabIndex = 7;
-            loadmoreEmails.Text = "Load thêm";
-            loadmoreEmails.UseVisualStyleBackColor = true;
-            // 
             // RecieveEmail
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(loadmoreEmails);
             Controls.Add(EmailDisplay);
             Controls.Add(listView1);
             Controls.Add(lblRecent);
@@ -115,6 +104,5 @@
         private Label lblRecent;
         private ListView listView1;
         private Label EmailDisplay;
-        private Button loadmoreEmails;
     }
 }

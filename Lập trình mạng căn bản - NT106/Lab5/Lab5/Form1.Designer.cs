@@ -1,6 +1,6 @@
 ﻿namespace Lab5
 {
-    partial class LOGi
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -65,7 +65,7 @@
             Pass.ImeMode = ImeMode.NoControl;
             Pass.Location = new Point(246, 203);
             Pass.Name = "Pass";
-            Pass.PasswordChar = '#';
+            Pass.PasswordChar = '*';
             Pass.Size = new Size(328, 23);
             Pass.TabIndex = 3;
             // 
@@ -79,7 +79,7 @@
             Login.UseVisualStyleBackColor = true;
             Login.Click += Login_Click;
             // 
-            // LOGi
+            // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -89,7 +89,7 @@
             Controls.Add(Email);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "LOGi";
+            Name = "Form1";
             Text = "Login Form";
             ResumeLayout(false);
             PerformLayout();

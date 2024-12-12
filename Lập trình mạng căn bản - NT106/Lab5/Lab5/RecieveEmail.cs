@@ -31,6 +31,7 @@ namespace Lab5
             _pass = pass;
             _messages = new List<MimeMessage>();
             _emailLoadCount = 0; // Start with 0 loaded emails
+            EmailDisplay.Text = email;
 
             try
             {
