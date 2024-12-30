@@ -40,8 +40,8 @@ GROUP BY CongTy.TenCongTy;
 
 --9. Tìm chuyên gia có số năm kinh nghiệm cao nhất trong mỗi chuyên ngành.
 
-SELECT *
-FROM ChuyenGia
+--SELECT *
+--FROM ChuyenGia;
 WITH ChuyenGia_XepHang AS (
     SELECT 
         ChuyenNganh,
@@ -101,7 +101,20 @@ ORDER BY Top3 DESC
 
 --14. Tính lương trung bình của chuyên gia theo từng cấp độ kinh nghiệm (Junior: 0-2 năm, Middle: 3-5 năm, Senior: >5 năm).
 
-
+SELECT 
+    CASE 
+        WHEN NamKinhNghiem <= 2 THEN 'Junior'
+        WHEN NamKinhNghiem <= 5 THEN 'Middle'
+        ELSE 'Senior'
+    END AS CapDo,
+    AVG(Luong) AS LuongTrungBinh
+FROM ChuyenGia
+GROUP BY 
+    CASE 
+        WHEN NamKinhNghiem <= 2 THEN 'Junior'
+        WHEN NamKinhNghiem <= 5 THEN 'Middle'
+        ELSE 'Senior'
+    END;
 --15. Tìm các dự án có sự tham gia của chuyên gia từ tất cả các chuyên ngành.
 WITH DanhSachChuyenNganh AS (
     SELECT DISTINCT ChuyenNganh
@@ -139,23 +152,128 @@ WHERE
 ---- Trigger:
 --16. Tạo một trigger để tự động cập nhật số lượng dự án của công ty khi thêm hoặc xóa dự án.
 
-CREATE TRIGGER TRG_TDSLDA
-ON [dbo].[CongTy]
+--Tạo bảng log
+
+CREATE TRIGGER TRG_SoLuongDuAn
+ON DuAn
 AFTER INSERT, DELETE
 AS
 BEGIN
-	IF EXISTS(SELECT 1 FROM inserted)
+	IF EXISTS (SELECT 1 FROM inserted)
 	BEGIN
-		UPDATE CongTy
-		SET 
+		UPDATE CT
+		SET CT.SoLuong = CT.SoLuong + T.TotalCount
+		FROM CongTy CT
+		JOIN (
+			SELECT MaCongTy, COUNT(*) AS TotalCount
+			FROM inserted
+			GROUP BY MaCongTy
+		) T ON CT.MaCongTy = T.MaCongTy;
+	END
+	IF EXISTS (
+		SELECT 1
+		FROM deleted
+	)
+	BEGIN
+		UPDATE CT
+		SET CT.SoLuong = CT.SoLuong - T.TotalCount
+		FROM CongTy CT
+		JOIN (
+			SELECT MaCongTy, COUNT(*) AS TotalCount
+			FROM deleted
+			GROUP BY MaCongTy
+		) T ON CT.MaCongTy = T.MaCongTy;
+	END
 END;
 
 --17. Tạo một trigger để ghi log mỗi khi có sự thay đổi trong bảng ChuyenGia.
 
+CREATE TABLE LOG_DuAn(
+    ID_LOG INT IDENTITY(1,1) PRIMARY KEY,
+    MaChuyenGia INT,
+    HanhDong NVARCHAR(10),
+    NgayThayDoi DATETIME DEFAULT GETDATE()
+)
+CREATE TRIGGER LOG_ChuyenGia
+ON ChuyenGia
+AFTER INSERT, DELETE, UPDATE
+AS
+BEGIN
+	DECLARE @HanhDong nvarchar(10)
+
+    IF EXISTS (SELECT * FROM inserted) AND NOT EXISTS (SELECT * FROM deleted)
+        SET @HanhDong = 'INSERT';
+
+    IF EXISTS (SELECT * FROM deleted) AND NOT EXISTS (SELECT * FROM inserted)
+        SET @HanhDong = 'DELETE';
+
+    IF EXISTS (SELECT * FROM inserted) AND EXISTS (SELECT * FROM deleted)
+        SET @HanhDong = 'UPDATE';
+	INSERT INTO LOG_DuAn (MaChuyenGia, HanhDong, NgayThayDoi)
+    SELECT
+        COALESCE(i.MaChuyenGia, d.MaChuyenGia), 
+        @HanhDong,
+        GETDATE()
+    FROM
+        inserted AS i
+        FULL OUTER JOIN deleted AS d
+        ON i.MaChuyenGia = d.MaChuyenGia;
+END;
 
 --18. Tạo một trigger để đảm bảo rằng một chuyên gia không thể tham gia vào quá 5 dự án cùng một lúc.
+CREATE TRIGGER TRG_ChuyenGia5DuAn
+ON ChuyenGia_DuAn
+AFTER INSERT
+AS
+BEGIN
+	IF EXISTS (
+	SELECT 1
+		FROM inserted 
+		WHERE MaChuyenGia IN (
+			SELECT MaChuyenGia
+			FROM ChuyenGia_DuAn
+			GROUP BY MaChuyenGia
+			HAVING COUNT(MaDuAn) > 5
+		)
+	)
+	BEGIN 
+		RAISERROR('Một chuyên gia không thể tham gia vào quá 5 dự án cùng một lúc!', 16, 1);
+		ROLLBACK TRANSACTION;
+	END
+END;
 
 --19. Tạo một trigger để tự động cập nhật trạng thái của dự án thành 'Hoàn thành' khi tất cả chuyên gia đã kết thúc công việc.
 
-
+CREATE TRIGGER TRG_CapNhatTrangThaiDuAn
+ON ChuyenGia_DuAn
+AFTER UPDATE
+AS
+BEGIN
+    UPDATE DuAn
+    SET TrangThai = N'Hoàn thành'
+    WHERE MaDuAn IN (
+        SELECT MaDuAn
+        FROM ChuyenGia_DuAn
+        GROUP BY MaDuAn
+        HAVING COUNT(*) = SUM(CASE WHEN NgayKetThuc IS NOT NULL THEN 1 ELSE 0 END)
+    )
+    AND TrangThai != N'Hoàn thành';
+END;
 --20. Tạo một trigger để tự động tính toán và cập nhật điểm đánh giá trung bình của công ty dựa trên điểm đánh giá của các dự án.
+CREATE TRIGGER trg_CapNhatDiemDanhGiaCongTy
+ON DuAn
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(DiemDanhGia)
+    BEGIN
+        UPDATE CongTy
+        SET DiemDanhGia = (
+            SELECT AVG(DiemDanhGia)
+            FROM DuAn
+            WHERE MaCongTy = CongTy.MaCongTy AND DiemDanhGia IS NOT NULL
+        )
+        FROM CongTy
+        INNER JOIN inserted ON CongTy.MaCongTy = inserted.MaCongTy;
+    END
+END;
