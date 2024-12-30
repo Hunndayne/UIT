@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\lab5\\recieveemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\recieveemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\recieveemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -23,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\recieveemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\recieveemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F18BEEDE-E3F6-4194-A3EC-3471F5BE7B9D}|Lab5\\Lab5.csproj|d:\\uit\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106\\lab5\\lab5\\emaildetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,6 +71,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -91,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmailDetailsForm.Designer.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\EmailDetailsForm.Designer.cs",
               "RelativeDocumentMoniker": "Lab5\\EmailDetailsForm.Designer.cs",
@@ -99,18 +103,17 @@
               "RelativeToolTip": "Lab5\\EmailDetailsForm.Designer.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:02:11.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T15:02:11.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "SendEmail.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\SendEmail.cs",
               "RelativeDocumentMoniker": "Lab5\\SendEmail.cs",
               "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\SendEmail.cs",
               "RelativeToolTip": "Lab5\\SendEmail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T14:06:19.456Z",
               "EditorCaption": ""
@@ -125,12 +128,11 @@
               "RelativeToolTip": "Lab5\\SendEmail.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:06:08.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T14:06:08.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RecieveEmail.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\RecieveEmail.cs",
               "RelativeDocumentMoniker": "Lab5\\RecieveEmail.cs",
@@ -143,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Lab5.csproj",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\Lab5.csproj",
               "RelativeDocumentMoniker": "Lab5\\Lab5.csproj",
@@ -151,12 +153,11 @@
               "RelativeToolTip": "Lab5\\Lab5.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-26T13:53:48.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T13:53:48.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Lab5\\Form1.Designer.cs",
@@ -164,12 +165,11 @@
               "RelativeToolTip": "Lab5\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:51:33.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T13:51:33.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\Form1.cs",
               "RelativeDocumentMoniker": "Lab5\\Form1.cs",
@@ -182,15 +182,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\Form1.cs",
               "RelativeDocumentMoniker": "Lab5\\Form1.cs",
               "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\Form1.cs [Design]",
               "RelativeToolTip": "Lab5\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:40:29.018Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T13:40:29.018Z"
             },
             {
               "$type": "Document",
@@ -201,12 +200,11 @@
               "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\EmailDetailsForm.cs [Design]",
               "RelativeToolTip": "Lab5\\EmailDetailsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:01:43.216Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T15:01:43.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RecieveEmail.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\RecieveEmail.cs",
               "RelativeDocumentMoniker": "Lab5\\RecieveEmail.cs",
@@ -225,8 +223,7 @@
               "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106\\Lab5\\Lab5\\SendEmail.cs [Design]",
               "RelativeToolTip": "Lab5\\SendEmail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:53:36.57Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T13:53:36.57Z"
             }
           ]
         }
