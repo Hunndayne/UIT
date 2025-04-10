@@ -10,11 +10,12 @@ struct NODE {
 // Định nghĩa cấu trúc của danh sách
 struct LIST {
     NODE* head; // Phần tử đầu của danh sách
+    NODE* tail;
 };
 
 // Hàm khởi tạo danh sách rỗng
 void CreateEmptyList(LIST& l) {
-    l.head = NULL; // Ban đầu danh sách trống
+    l.head=l.tail = NULL; // Ban đầu danh sách trống
 }
 
 // Hàm tạo một node mới
@@ -26,15 +27,15 @@ NODE* CreateNode(int n) {
 }
 
 // Hàm thêm một node vào đầu danh sách
-void addHead(LIST& l, NODE* p) {
-    if (l.head == NULL) {
-        l.head = p;     // Nếu danh sách rỗng, node mới sẽ là node đầu tiên
-    }
-    else {
-        p->next = l.head;   // Node mới trỏ đến node đầu hiện tại
-        l.head = p;         // Cập nhật node đầu là node mới
-    }
+void addHead(LIST& L, int x) {
+Node* p = new Node();
+p->data = x;
+p->next = NULL;
+if (L.head == NULL) {
+L.head = p;
+L.tail = L.head;
 }
+else {
 
 // Hàm đếm số lượng phần tử trong danh sách
 int length(LIST& l) {
