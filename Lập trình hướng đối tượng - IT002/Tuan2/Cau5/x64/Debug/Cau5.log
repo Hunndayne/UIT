@@ -1,0 +1,4 @@
+﻿  Cau5.cpp
+D:\UIT\Lập trình hướng đối tượng - IT002\Tuan2\Cau5\Cau5.cpp(113,91): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
+D:\UIT\Lập trình hướng đối tượng - IT002\Tuan2\Cau5\Cau5.cpp(259,13): warning C4566: character represented by universal-character-name '\u1EAD' cannot be represented in the current code page (1252)
+  Cau5.vcxproj -> D:\UIT\Lập trình hướng đối tượng - IT002\Tuan2\Cau1\x64\Debug\Cau5.exe

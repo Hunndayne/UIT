@@ -1,0 +1,6 @@
+COMPONENT=LightSensorAppC
+CFLAGS += -DPRINTF_BUFFER_SIZE=128
+PFLAGS += -I$(TINYOS_ROOT_DIR)/tos/lib/printf
+CFLAGS += -DBAUDRATE=115200
+TINYOS_ROOT_DIR?=../..
+include $(TINYOS_ROOT_DIR)/Makefile.include

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE70194-B8AB-4C2B-96CF-1230D5D1EEFD}|..\\Cau7\\Cau7.vcxproj|D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau7\\Cau7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B77E717-7D77-496B-A715-15320CF6DE5D}|..\\Cau6\\Cau6.vcxproj|D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau6\\Cau6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E518F9B6-1BEB-4622-8269-CE50B62774AF}|..\\Cau5\\Cau5.vcxproj|D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau5\\Cau5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cau6.cpp",
+              "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau6\\Cau6.cpp",
+              "RelativeDocumentMoniker": "..\\Cau6\\Cau6.cpp",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau6\\Cau6.cpp",
+              "RelativeToolTip": "..\\Cau6\\Cau6.cpp",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-20T20:11:18.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cau5.cpp",
+              "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau5\\Cau5.cpp",
+              "RelativeDocumentMoniker": "..\\Cau5\\Cau5.cpp",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau5\\Cau5.cpp",
+              "RelativeToolTip": "..\\Cau5\\Cau5.cpp",
+              "ViewState": "AgIAANMAAAAAAAAAAAAswAsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-17T20:03:11.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cau7.cpp",
+              "DocumentMoniker": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau7\\Cau7.cpp",
+              "RelativeDocumentMoniker": "..\\Cau7\\Cau7.cpp",
+              "ToolTip": "D:\\UIT\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng \u0111\u1ED1i t\u01B0\u1EE3ng - IT002\\Tuan2\\Cau7\\Cau7.cpp",
+              "RelativeToolTip": "..\\Cau7\\Cau7.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-21T14:31:08.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

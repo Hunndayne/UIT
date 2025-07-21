@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\Cau8\\Cau8.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
