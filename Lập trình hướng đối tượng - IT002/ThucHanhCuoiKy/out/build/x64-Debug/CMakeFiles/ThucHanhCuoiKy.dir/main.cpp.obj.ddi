@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\ThucHanhCuoiKy.dir\\main.cpp.obj",
+            "outputs": [
+                "D:\\UIT\\Lập trình hướng đối tượng - IT002\\ThucHanhCuoiKy\\out\\build\\x64-Debug\\vc140.pdb",
+                "CMakeFiles\\ThucHanhCuoiKy.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
