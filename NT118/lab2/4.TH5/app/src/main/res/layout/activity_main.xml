@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:layout_marginTop="40dp">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/labelsBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="tvLabelId,tvLabelName,tvLabelManager" />
+
+    <TextView
+        android:id="@+id/tvLabelId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:labelFor="@id/etId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/id"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_marginStart="@dimen/margin_basex2"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toEndOf="@id/labelsBarrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLabelId"
+        tools:ignore="LabelFor" />
+
+    <!-- Full Name -->
+    <TextView
+        android:id="@+id/tvLabelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:labelFor="@id/etName"
+        android:layout_marginTop="@dimen/margin_basex2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelId" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:imeOptions="actionDone"
+        android:layout_marginStart="@dimen/margin_basex2"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toEndOf="@id/labelsBarrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLabelName"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvLabelManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_manager"
+        android:labelFor="@id/cbManager"
+        android:layout_marginTop="@dimen/margin_basex2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelName" />
+
+    <CheckBox
+        android:id="@+id/cbManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_basex2"
+        app:layout_constraintStart_toEndOf="@id/labelsBarrier"
+        app:layout_constraintTop_toTopOf="@id/tvLabelManager"
+        app:layout_constraintBottom_toBottomOf="@id/tvLabelManager" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_marginTop="@dimen/margin_basex2"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ListView
+        android:id="@+id/lvEmployees"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:dividerHeight="0dp"
+        android:layout_marginTop="@dimen/margin_basex2"
+        app:layout_constraintTop_toBottomOf="@id/btnAdd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

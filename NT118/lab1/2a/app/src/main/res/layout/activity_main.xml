@@ -61,14 +61,14 @@
         android:layout_alignParentRight="true"/>
 
 
-
+<!--Phần thêm-->
     <Button
         android:id="@+id/btn_sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/margin_base"
+        android:layout_marginBottom="@dimen/margin_basex4"
         android:padding="@dimen/margin_base"
         android:text="@string/signup" />
 
